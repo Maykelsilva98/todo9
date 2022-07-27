@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    background: #707070 0% 0% no-repeat padding-box;
+    padding: 100px 0;
+    transform: skew(4deg, 0deg) rotate(4deg) translateX(-100px) translateY(-100px);
+    width: 110%;
+    height: 100%;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transform: skew(-4deg, 0deg) rotate(-4deg) translateX(-20px) translateY(40px);
+    width: 1400px;
+    height: 200px;
+}
+
+.selecao{
+    text-align: center;
+    font: arial;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 20px;
+}
+
+.especial{
+    text-align: center;
+    font: arial;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.slogan{
+    text-align: center;
+    font: arial;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
